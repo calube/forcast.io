@@ -1,0 +1,546 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C11Forecast_me14ViewController"
+provides-member:
+- ["C11Forecast_me14ViewController", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "temperatureScaleLabel"
+- "temperatureLabel"
+- "imageName"
+- "name"
+- "cityTextLabel"
+- "forecastAPIKey"
+- "backgroundImageView"
+depends-top-level:
+- "UILabel"
+- !private "Void"
+- !private "UIImage"
+- !private "ForecastService"
+- "StringLiteralType"
+- "Double"
+- "ViewController"
+- "AssignmentPrecedence"
+- "UIImageView"
+- "String"
+- "UIViewController"
+- !private "DispatchQueue"
+depends-member:
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "ForecastService"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "async"]
+- ["Ps9AnyObject", "backgroundImageView"]
+- ["Ps9AnyObject", "cityTextLabel"]
+- ["Ps9AnyObject", "coordinate"]
+- ["Ps9AnyObject", "forecastAPIKey"]
+- !private ["Ps9AnyObject", "getForecast"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "imageName"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "temperature"]
+- ["Ps9AnyObject", "temperatureLabel"]
+- ["Ps9AnyObject", "temperatureScaleLabel"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "image"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "ForecastService"]
+- !private ["Ps7CVarArg", "UIImage"]
+- !private ["Ps7CVarArg", "async"]
+- ["Ps7CVarArg", "backgroundImageView"]
+- ["Ps7CVarArg", "cityTextLabel"]
+- ["Ps7CVarArg", "coordinate"]
+- ["Ps7CVarArg", "forecastAPIKey"]
+- !private ["Ps7CVarArg", "image"]
+- ["Ps7CVarArg", "imageName"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "name"]
+- ["Ps7CVarArg", "temperatureLabel"]
+- ["Ps7CVarArg", "temperatureScaleLabel"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- ["Ps10Comparable", "init"]
+- !private ["C11Forecast_me14CurrentWeather", "deinit"]
+- !private ["C11Forecast_me14CurrentWeather", "temperature"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "ForecastService"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- ["Ps28CustomDebugStringConvertible", "backgroundImageView"]
+- ["Ps28CustomDebugStringConvertible", "cityTextLabel"]
+- ["Ps28CustomDebugStringConvertible", "coordinate"]
+- ["Ps28CustomDebugStringConvertible", "forecastAPIKey"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "imageName"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "temperatureLabel"]
+- ["Ps28CustomDebugStringConvertible", "temperatureScaleLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "ForecastService"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- ["Ps23CustomStringConvertible", "backgroundImageView"]
+- ["Ps23CustomStringConvertible", "cityTextLabel"]
+- ["Ps23CustomStringConvertible", "coordinate"]
+- ["Ps23CustomStringConvertible", "forecastAPIKey"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "imageName"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "temperatureLabel"]
+- ["Ps23CustomStringConvertible", "temperatureScaleLabel"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "deinit"]
+- !private ["CSo13DispatchQueue", "main"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "ForecastService"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "async"]
+- ["Ps9Equatable", "backgroundImageView"]
+- ["Ps9Equatable", "cityTextLabel"]
+- ["Ps9Equatable", "coordinate"]
+- ["Ps9Equatable", "forecastAPIKey"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "imageName"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "temperatureLabel"]
+- ["Ps9Equatable", "temperatureScaleLabel"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- ["C11Forecast_me15ForecastService", "deinit"]
+- !private ["C11Forecast_me15ForecastService", "getForecast"]
+- !private ["C11Forecast_me15ForecastService", "init"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "ForecastService"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "async"]
+- ["Ps8Hashable", "backgroundImageView"]
+- ["Ps8Hashable", "cityTextLabel"]
+- ["Ps8Hashable", "coordinate"]
+- ["Ps8Hashable", "forecastAPIKey"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "imageName"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "temperatureLabel"]
+- ["Ps8Hashable", "temperatureScaleLabel"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "DispatchQueue"]
+- !private ["PSo8NSCoding", "ForecastService"]
+- !private ["PSo8NSCoding", "UIImage"]
+- ["PSo8NSCoding", "backgroundImageView"]
+- ["PSo8NSCoding", "cityTextLabel"]
+- ["PSo8NSCoding", "coordinate"]
+- ["PSo8NSCoding", "forecastAPIKey"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "imageName"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "name"]
+- ["PSo8NSCoding", "temperatureLabel"]
+- ["PSo8NSCoding", "temperatureScaleLabel"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "DispatchQueue"]
+- !private ["PSo26NSExtensionRequestHandling", "ForecastService"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImage"]
+- ["PSo26NSExtensionRequestHandling", "backgroundImageView"]
+- ["PSo26NSExtensionRequestHandling", "cityTextLabel"]
+- ["PSo26NSExtensionRequestHandling", "coordinate"]
+- ["PSo26NSExtensionRequestHandling", "forecastAPIKey"]
+- ["PSo26NSExtensionRequestHandling", "imageName"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "name"]
+- ["PSo26NSExtensionRequestHandling", "temperatureLabel"]
+- ["PSo26NSExtensionRequestHandling", "temperatureScaleLabel"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "DispatchQueue"]
+- ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "ForecastService"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "async"]
+- ["CSo8NSObject", "backgroundImageView"]
+- ["CSo8NSObject", "cityTextLabel"]
+- ["CSo8NSObject", "coordinate"]
+- ["CSo8NSObject", "forecastAPIKey"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "imageName"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "temperatureLabel"]
+- ["CSo8NSObject", "temperatureScaleLabel"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "ForecastService"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- ["PSo16NSObjectProtocol", "backgroundImageView"]
+- ["PSo16NSObjectProtocol", "cityTextLabel"]
+- ["PSo16NSObjectProtocol", "coordinate"]
+- ["PSo16NSObjectProtocol", "forecastAPIKey"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "imageName"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "temperatureLabel"]
+- ["PSo16NSObjectProtocol", "temperatureScaleLabel"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- ["Sq", "deinit"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "DispatchQueue"]
+- !private ["PSo21UIAppearanceContainer", "ForecastService"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- ["PSo21UIAppearanceContainer", "backgroundImageView"]
+- ["PSo21UIAppearanceContainer", "cityTextLabel"]
+- ["PSo21UIAppearanceContainer", "coordinate"]
+- ["PSo21UIAppearanceContainer", "forecastAPIKey"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "imageName"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "name"]
+- ["PSo21UIAppearanceContainer", "temperatureLabel"]
+- ["PSo21UIAppearanceContainer", "temperatureScaleLabel"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "DispatchQueue"]
+- !private ["PSo18UIContentContainer", "ForecastService"]
+- !private ["PSo18UIContentContainer", "UIImage"]
+- ["PSo18UIContentContainer", "backgroundImageView"]
+- ["PSo18UIContentContainer", "cityTextLabel"]
+- ["PSo18UIContentContainer", "coordinate"]
+- ["PSo18UIContentContainer", "forecastAPIKey"]
+- ["PSo18UIContentContainer", "imageName"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "name"]
+- ["PSo18UIContentContainer", "temperatureLabel"]
+- ["PSo18UIContentContainer", "temperatureScaleLabel"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "DispatchQueue"]
+- !private ["PSo18UIFocusEnvironment", "ForecastService"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- ["PSo18UIFocusEnvironment", "backgroundImageView"]
+- ["PSo18UIFocusEnvironment", "cityTextLabel"]
+- ["PSo18UIFocusEnvironment", "coordinate"]
+- ["PSo18UIFocusEnvironment", "forecastAPIKey"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "imageName"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "name"]
+- ["PSo18UIFocusEnvironment", "temperatureLabel"]
+- ["PSo18UIFocusEnvironment", "temperatureScaleLabel"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "image"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo11UIResponder", "DispatchQueue"]
+- ["CSo11UIResponder", "Double"]
+- !private ["CSo11UIResponder", "ForecastService"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "backgroundImageView"]
+- ["CSo11UIResponder", "cityTextLabel"]
+- ["CSo11UIResponder", "coordinate"]
+- ["CSo11UIResponder", "forecastAPIKey"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "imageName"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "name"]
+- ["CSo11UIResponder", "temperatureLabel"]
+- ["CSo11UIResponder", "temperatureScaleLabel"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "DispatchQueue"]
+- !private ["PSo30UIResponderStandardEditActions", "ForecastService"]
+- !private ["PSo30UIResponderStandardEditActions", "UIImage"]
+- ["PSo30UIResponderStandardEditActions", "backgroundImageView"]
+- ["PSo30UIResponderStandardEditActions", "cityTextLabel"]
+- ["PSo30UIResponderStandardEditActions", "coordinate"]
+- ["PSo30UIResponderStandardEditActions", "forecastAPIKey"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- ["PSo30UIResponderStandardEditActions", "imageName"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "name"]
+- ["PSo30UIResponderStandardEditActions", "temperatureLabel"]
+- ["PSo30UIResponderStandardEditActions", "temperatureScaleLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "DispatchQueue"]
+- !private ["PSo16UIStateRestoring", "ForecastService"]
+- !private ["PSo16UIStateRestoring", "UIImage"]
+- ["PSo16UIStateRestoring", "backgroundImageView"]
+- ["PSo16UIStateRestoring", "cityTextLabel"]
+- ["PSo16UIStateRestoring", "coordinate"]
+- ["PSo16UIStateRestoring", "forecastAPIKey"]
+- ["PSo16UIStateRestoring", "imageName"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "name"]
+- ["PSo16UIStateRestoring", "temperatureLabel"]
+- ["PSo16UIStateRestoring", "temperatureScaleLabel"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "DispatchQueue"]
+- !private ["PSo18UITraitEnvironment", "ForecastService"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- ["PSo18UITraitEnvironment", "backgroundImageView"]
+- ["PSo18UITraitEnvironment", "cityTextLabel"]
+- ["PSo18UITraitEnvironment", "coordinate"]
+- ["PSo18UITraitEnvironment", "forecastAPIKey"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "imageName"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "name"]
+- ["PSo18UITraitEnvironment", "temperatureLabel"]
+- ["PSo18UITraitEnvironment", "temperatureScaleLabel"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "image"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "DispatchQueue"]
+- ["CSo16UIViewController", "Double"]
+- !private ["CSo16UIViewController", "ForecastService"]
+- ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "UILabel"]
+- !private ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "backgroundImageView"]
+- ["CSo16UIViewController", "cityTextLabel"]
+- ["CSo16UIViewController", "coordinate"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "forecastAPIKey"]
+- ["CSo16UIViewController", "imageName"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "name"]
+- ["CSo16UIViewController", "temperatureLabel"]
+- ["CSo16UIViewController", "temperatureScaleLabel"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["C11Forecast_me14ViewController", "DispatchQueue"]
+- ["C11Forecast_me14ViewController", "Double"]
+- !private ["C11Forecast_me14ViewController", "ForecastService"]
+- ["C11Forecast_me14ViewController", "String"]
+- !private ["C11Forecast_me14ViewController", "UIImage"]
+- ["C11Forecast_me14ViewController", "UIImageView"]
+- ["C11Forecast_me14ViewController", "UILabel"]
+- !private ["C11Forecast_me14ViewController", "Void"]
+- ["C11Forecast_me14ViewController", "backgroundImageView"]
+- ["C11Forecast_me14ViewController", "cityTextLabel"]
+- ["C11Forecast_me14ViewController", "coordinate"]
+- ["C11Forecast_me14ViewController", "deinit"]
+- ["C11Forecast_me14ViewController", "forecastAPIKey"]
+- ["C11Forecast_me14ViewController", "imageName"]
+- ["C11Forecast_me14ViewController", "init"]
+- ["C11Forecast_me14ViewController", "name"]
+- ["C11Forecast_me14ViewController", "temperatureLabel"]
+- ["C11Forecast_me14ViewController", "temperatureScaleLabel"]
+- ["C11Forecast_me14ViewController", "viewDidLoad"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "ForecastService"]
+- !private ["Ps9_Hashable", "UIImage"]
+- !private ["Ps9_Hashable", "async"]
+- ["Ps9_Hashable", "backgroundImageView"]
+- ["Ps9_Hashable", "cityTextLabel"]
+- ["Ps9_Hashable", "coordinate"]
+- ["Ps9_Hashable", "forecastAPIKey"]
+- !private ["Ps9_Hashable", "image"]
+- ["Ps9_Hashable", "imageName"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "name"]
+- ["Ps9_Hashable", "temperatureLabel"]
+- ["Ps9_Hashable", "temperatureScaleLabel"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- "Ps10Comparable"
+- !private "C11Forecast_me14CurrentWeather"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- "Sd"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "C11Forecast_me15ForecastService"
+- "Ps8Hashable"
+- "SQ"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "CSo9OS_object"
+- "Sq"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UIImage"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- "C11Forecast_me14ViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "3961d519ca8971bc673feed6ac930ed8"

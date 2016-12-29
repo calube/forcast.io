@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "9ca930341518bf738b05a03223585765"
+build_time: [536278083, 275382000]
+inputs:
+  "/Users/Calube/Developer/Forecast.me/Forecast.me/CityTableViewCell.swift": [532031204, 0]
+  "/Users/Calube/Developer/Forecast.me/Forecast.me/ViewController.swift": [532034689, 0]
+  "/Users/Calube/Developer/Forecast.me/Forecast.me/AppDelegate.swift": [532028974, 0]
+  "/Users/Calube/Developer/Forecast.me/Forecast.me/CurrentWeather.swift": [532029133, 0]
+  "/Users/Calube/Developer/Forecast.me/Forecast.me/CitiesTableViewController.swift": [532036619, 0]
+  "/Users/Calube/Developer/Forecast.me/Forecast.me/ForecastService.swift": [532029735, 0]
+  "/Users/Calube/Developer/Forecast.me/Forecast.me/City.swift": [532031204, 0]
+  "/Users/Calube/Developer/Forecast.me/Forecast.me/NetworkProcessing.swift": [532029100, 0]
